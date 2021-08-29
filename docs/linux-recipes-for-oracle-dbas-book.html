@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>
+    
+      Linux Recipes For Oracle Dbas Book &middot; Collections of free books and learning resources
+    
+  </title>
+
+  <!-- Icons -->
+  <link rel="shortcut icon" href="/book018/assets/images/favicon.ico">
+
+  <!-- RSS -->
+  <link rel="alternate" type="application/atom+xml" title="Collections of free books and learning resources" href="/book018/atom.xml">
+
+  <link href="/book018/assets/css/screen.css" rel="stylesheet">
+
+  <meta name="google-site-verification" content="j1FZ4haS9eOdHCoDKo9KtaXN6vxc8lhfJiqAkLcPIxI" />
+
+  <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Linux Recipes For Oracle Dbas Book | Collections of free books and learning resources</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Linux Recipes For Oracle Dbas Book" />
+<meta name="author" content="TBD" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Linux Recipes For Oracle Dbas Book" />
+<meta property="og:description" content="Linux Recipes For Oracle Dbas Book" />
+<link rel="canonical" href="http://localhost:4000/book018/linux-recipes-for-oracle-dbas-book.html" />
+<meta property="og:url" content="http://localhost:4000/book018/linux-recipes-for-oracle-dbas-book.html" />
+<meta property="og:site_name" content="Collections of free books and learning resources" />
+<meta property="og:image" content="https://www.programming-book.com/doc-images/9299.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-06-15T00:00:00+07:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://www.programming-book.com/doc-images/9299.png" />
+<meta property="twitter:title" content="Linux Recipes For Oracle Dbas Book" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","headline":"Linux Recipes For Oracle Dbas Book","url":"http://localhost:4000/book018/linux-recipes-for-oracle-dbas-book.html","datePublished":"2019-06-15T00:00:00+07:00","dateModified":"2019-06-15T00:00:00+07:00","image":"https://www.programming-book.com/doc-images/9299.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/book018/linux-recipes-for-oracle-dbas-book.html"},"author":{"@type":"Person","name":"TBD"},"description":"Linux Recipes For Oracle Dbas Book","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+
+  <body>
+    <div class="wrap-container">
+
+      <header class="header">
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top nav-down dl-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="https://freedl101.github.io">
+        <i class="fa fa-cloud-download fa-lg" aria-hidden="true"></i>
+        <span>
+          freedl101 <a href="https://freedl101.github.io/blog/">+BLOG</a>
+        </span>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown mb-2 mr-4">
+            <button class="nav-link dropdown-toggle btn btn-sm btn-outline-info px-2" id="pagelist-dropdown" data-toggle="dropdown">
+              PAGE/FREEDL101
+            </button>
+
+            <div class="dropdown-menu" aria-labelledby="pagelist-dropdown">
+              
+                <a class="dropdown-item" href="https://freedl101.github.io/book001">
+                  Book001
+                </a>
+              
+                <a class="dropdown-item" href="https://freedl101.github.io/book002">
+                  Book002
+                </a>
+              
+                <a class="dropdown-item" href="https://freedl101.github.io/book003">
+                  Book003
+                </a>
+              
+                <a class="dropdown-item" href="https://freedl101.github.io/book004">
+                  Book004
+                </a>
+              
+                <a class="dropdown-item" href="https://freedl101.github.io/book005">
+                  Book005
+                </a>
+              
+                <a class="dropdown-item" href="https://freedl101.github.io/book006">
+                  Book006
+                </a>
+              
+                <a class="dropdown-item" href="https://freedl101.github.io/book007">
+                  Book007
+                </a>
+              
+                <a class="dropdown-item" href="https://freedl101.github.io/book008">
+                  Book008
+                </a>
+              
+                <a class="dropdown-item" href="https://freedl101.github.io/book009">
+                  Book009
+                </a>
+              
+                <a class="dropdown-item" href="https://freedl101.github.io/book010">
+                  Book010
+                </a>
+              
+                <a class="dropdown-item" href="https://freedl101.github.io/book011">
+                  Book011
+                </a>
+              
+                <a class="dropdown-item" href="https://freedl101.github.io/book012">
+                  Book012
+                </a>
+              
+                <a class="dropdown-item" href="https://freedl101.github.io/book013">
+                  Book013
+                </a>
+              
+                <a class="dropdown-item" href="https://freedl101.github.io/book014">
+                  Book014
+                </a>
+              
+                <a class="dropdown-item" href="https://freedl101.github.io/book015">
+                  Book015
+                </a>
+              
+                <a class="dropdown-item" href="https://freedl101.github.io/book016">
+                  Book016
+                </a>
+              
+                <a class="dropdown-item" href="https://freedl101.github.io/book017">
+                  Book017
+                </a>
+              
+                <a class="dropdown-item" href="https://freedl101.github.io/book018">
+                  Book018
+                </a>
+              
+                <a class="dropdown-item" href="https://freedl101.github.io/book019">
+                  Book019
+                </a>
+              
+                <a class="dropdown-item" href="https://freedl101.github.io/book020">
+                  Book020
+                </a>
+              
+            </div>
+          </li>
+        </ul>
+
+        <form class="form-inline mb-2">
+  <input class="form-control mr-2" type="text" placeholder="any title...?" aria-label="Search" id="searchbox" onsubmit="my_search_google()">
+  <button class="btn btn-outline-success my-2 my-sm-0" type="submit" onclick="my_search_google()">Search</button>
+</form>
+
+<script language="Javascript" type="text/javascript">
+  function my_search_google()
+  {
+    var query = document.getElementById("searchbox").value;
+    window.open("http://google.com/search?q=" + query
+	+ "%20site:" + "http://localhost:4000");
+  }
+</script>
+      </div>
+    </div>
+  </nav>
+</header>
+
+      <main class="main-content">
+        <div class="container">
+	<div class="row">
+		<div class="col-md-9">
+			<div class="dl-primary">
+				<hr>
+				<div class="row item">
+  <div class="mb-3 col-md-2">
+    <img class="item-thumbnail" src="https://www.programming-book.com/doc-images/9299.png">
+  </div>
+
+  <div class="mb-3 col-md-10">
+    <a href="#">
+      <h3 class="ebook_title text-primary"> Linux Recipes For Oracle Dbas Book </h3>
+    </a>
+
+    <h6 class="">Author: TBD</h6>
+    <h6 class="">Category:
+      <a href="#">
+        
+          Oracle
+        
+      </a>
+    </h6>
+
+    <h6 class="">Tags:
+      
+        
+          free book download,
+        
+      
+        
+          free pdf download,
+        
+      
+        
+          free programming ebook,
+        
+      
+        
+          pdf free,
+        
+      
+        
+          Linux Recipes For Oracle Dbas Book ebook,
+        
+      
+        
+          Linux Recipes For Oracle Dbas Book pdf,
+        
+      
+        
+          Linux Recipes For Oracle Dbas Book pdf download.
+        
+      
+    </h6>
+
+    
+      <div class="alert alert-info" role="alert">
+        <i class="fa fa-download" aria-hidden="true"></i> Please select file format to download.
+      </div>
+
+      <div class="item-downloads">
+        
+        
+          
+
+            
+  
+
+  
+  
+
+            
+            
+              <a onclick="window.location.href='http://adf.ly/22672009/https://programming-book.com/download/2017/ComputerBooks/341017/Linux Recipes For Oracle Dbas.pdf'"
+              type="button" class="adf.ly mb-1 btn btn-success btn-sm">
+                adf.ly/341017
+              </a>
+            
+
+            
+          
+
+            
+  
+
+  
+  
+
+            
+            
+              <a onclick="window.location.href='http://sh.st/st/46426c966202d473bb12d01037ebfad1/https://programming-book.com/download/2017/ComputerBooks/341017/Linux Recipes For Oracle Dbas.pdf'"
+              type="button" class="shorte.st mb-1 btn btn-danger btn-sm">
+                shorte.st/341017
+              </a>
+            
+
+            
+          
+
+            
+  
+
+  
+  
+
+            
+            
+              <a onclick="window.location.href='http://ouo.io/qs/muC2AUYR?s=https://programming-book.com/download/2017/ComputerBooks/341017/Linux Recipes For Oracle Dbas.pdf'"
+              type="button" class="ouo.io mb-1 btn btn-success btn-sm">
+                ouo.io/341017
+              </a>
+            
+
+            
+          
+        
+      </div>
+    
+  </div>
+</div>
+<hr>
+
+				<div class="my-3 text-center">(-&-)</div>
+				<div class="item-desc text-justify">
+  "Linux Recipes For Oracle Dbas Book" is available in PDF format. This books is free to download. Learn from this free book and enhance your skills.
+  <br />
+  #Linux Recipes For Oracle Dbas Book ebook, #Linux Recipes For Oracle Dbas Book pdf, #Linux Recipes For Oracle Dbas Book pdf download
+</div>
+
+			</div>
+
+			
+<div class="related-post">
+	<div class="my-4 text-center">(-&-)</div>
+	<h3>You might also like this</h3>
+	<hr>
+    
+      
+	    <div class="row item">
+  <div class="mb-3 col-md-2">
+    <img class="item-thumbnail" src="https://www.programming-book.com/doc-images/9659.png">
+  </div>
+
+  <div class="mb-3 col-md-10">
+    <a href="/book018/disassembling-code-ida-pro-and-softice-book.html">
+      <h3 class="ebook_title text-primary"> Disassembling Code IDA Pro and SoftICE Book </h3>
+    </a>
+
+    <h6 class="">Author: TBD</h6>
+    <h6 class="">Category:
+      <a href="#">
+        
+          PDF
+        
+      </a>
+    </h6>
+
+    
+      <div class="alert alert-info" role="alert">
+        <i class="fa fa-download" aria-hidden="true"></i> Please select file format to download.
+      </div>
+
+      <div class="item-downloads">
+        
+        
+          
+
+            
+  
+
+  
+  
+
+            
+            
+              <a onclick="window.location.href='http://adf.ly/22672009/https://programming-book.com/download/2017/ComputerBooks/151017/Disassembling Code IDA Pro and SoftICE.pdf'"
+              type="button" class="adf.ly mb-1 btn btn-success btn-sm">
+                adf.ly/151017
+              </a>
+            
+
+            
+          
+
+            
+  
+
+  
+  
+
+            
+            
+              <a onclick="window.location.href='http://sh.st/st/46426c966202d473bb12d01037ebfad1/https://programming-book.com/download/2017/ComputerBooks/151017/Disassembling Code IDA Pro and SoftICE.pdf'"
+              type="button" class="shorte.st mb-1 btn btn-danger btn-sm">
+                shorte.st/151017
+              </a>
+            
+
+            
+          
+
+            
+  
+
+  
+  
+
+            
+            
+              <a onclick="window.location.href='http://ouo.io/qs/muC2AUYR?s=https://programming-book.com/download/2017/ComputerBooks/151017/Disassembling Code IDA Pro and SoftICE.pdf'"
+              type="button" class="ouo.io mb-1 btn btn-success btn-sm">
+                ouo.io/151017
+              </a>
+            
+
+            
+          
+        
+      </div>
+    
+  </div>
+</div>
+<hr>
+
+	  
+    
+      
+	    <div class="row item">
+  <div class="mb-3 col-md-2">
+    <img class="item-thumbnail" src="https://www.programming-book.com/doc-images/16754.png">
+  </div>
+
+  <div class="mb-3 col-md-10">
+    <a href="/book018/ms-excel-2010-protect-a-cell-book.html">
+      <h3 class="ebook_title text-primary"> MS Excel 2010_ Protect a cell Book </h3>
+    </a>
+
+    <h6 class="">Author: TBD</h6>
+    <h6 class="">Category:
+      <a href="#">
+        
+          Microsoft
+        
+      </a>
+    </h6>
+
+    
+      <div class="alert alert-info" role="alert">
+        <i class="fa fa-download" aria-hidden="true"></i> Please select file format to download.
+      </div>
+
+      <div class="item-downloads">
+        
+        
+          
+
+            
+  
+
+  
+  
+
+            
+            
+              <a onclick="window.location.href='http://adf.ly/22672009/https://programming-book.com/download/2019/06/090619/MS Excel 2010_ Protect a cell.pdf'"
+              type="button" class="adf.ly mb-1 btn btn-success btn-sm">
+                adf.ly/090619
+              </a>
+            
+
+            
+          
+
+            
+  
+
+  
+  
+
+            
+            
+              <a onclick="window.location.href='http://sh.st/st/46426c966202d473bb12d01037ebfad1/https://programming-book.com/download/2019/06/090619/MS Excel 2010_ Protect a cell.pdf'"
+              type="button" class="shorte.st mb-1 btn btn-danger btn-sm">
+                shorte.st/090619
+              </a>
+            
+
+            
+          
+
+            
+  
+
+  
+  
+
+            
+            
+              <a onclick="window.location.href='http://ouo.io/qs/muC2AUYR?s=https://programming-book.com/download/2019/06/090619/MS Excel 2010_ Protect a cell.pdf'"
+              type="button" class="ouo.io mb-1 btn btn-success btn-sm">
+                ouo.io/090619
+              </a>
+            
+
+            
+          
+        
+      </div>
+    
+  </div>
+</div>
+<hr>
+
+	  
+    
+      
+	    <div class="row item">
+  <div class="mb-3 col-md-2">
+    <img class="item-thumbnail" src="https://www.programming-book.com/doc-images/16692.png">
+  </div>
+
+  <div class="mb-3 col-md-10">
+    <a href="/book018/ms-excel-2010-add-a-named-range-book.html">
+      <h3 class="ebook_title text-primary"> MS Excel 2010_ Add a Named Range Book </h3>
+    </a>
+
+    <h6 class="">Author: TBD</h6>
+    <h6 class="">Category:
+      <a href="#">
+        
+          Microsoft
+        
+      </a>
+    </h6>
+
+    
+      <div class="alert alert-info" role="alert">
+        <i class="fa fa-download" aria-hidden="true"></i> Please select file format to download.
+      </div>
+
+      <div class="item-downloads">
+        
+        
+          
+
+            
+  
+
+  
+  
+
+            
+            
+              <a onclick="window.location.href='http://adf.ly/22672009/https://programming-book.com/download/2019/06/090619/MS Excel 2010_ Add a Named Range.pdf'"
+              type="button" class="adf.ly mb-1 btn btn-success btn-sm">
+                adf.ly/090619
+              </a>
+            
+
+            
+          
+
+            
+  
+
+  
+  
+
+            
+            
+              <a onclick="window.location.href='http://sh.st/st/46426c966202d473bb12d01037ebfad1/https://programming-book.com/download/2019/06/090619/MS Excel 2010_ Add a Named Range.pdf'"
+              type="button" class="shorte.st mb-1 btn btn-danger btn-sm">
+                shorte.st/090619
+              </a>
+            
+
+            
+          
+
+            
+  
+
+  
+  
+
+            
+            
+              <a onclick="window.location.href='http://ouo.io/qs/muC2AUYR?s=https://programming-book.com/download/2019/06/090619/MS Excel 2010_ Add a Named Range.pdf'"
+              type="button" class="ouo.io mb-1 btn btn-success btn-sm">
+                ouo.io/090619
+              </a>
+            
+
+            
+          
+        
+      </div>
+    
+  </div>
+</div>
+<hr>
+
+	  
+    
+      
+	    <div class="row item">
+  <div class="mb-3 col-md-2">
+    <img class="item-thumbnail" src="https://www.programming-book.com/doc-images/7736.png">
+  </div>
+
+  <div class="mb-3 col-md-10">
+    <a href="/book018/testing-and-validation-of-computer-simulation-models-book.html">
+      <h3 class="ebook_title text-primary"> Testing and Validation of Computer Simulation Models Book </h3>
+    </a>
+
+    <h6 class="">Author: TBD</h6>
+    <h6 class="">Category:
+      <a href="#">
+        
+          PDF
+        
+      </a>
+    </h6>
+
+    
+      <div class="alert alert-info" role="alert">
+        <i class="fa fa-download" aria-hidden="true"></i> Please select file format to download.
+      </div>
+
+      <div class="item-downloads">
+        
+        
+          
+
+            
+  
+
+  
+  
+
+            
+            
+              <a onclick="window.location.href='http://adf.ly/22672009/https://programming-book.com/download/2017/ComputerBooks/581017/Testing and Validation of Computer Simulation Models.pdf'"
+              type="button" class="adf.ly mb-1 btn btn-success btn-sm">
+                adf.ly/581017
+              </a>
+            
+
+            
+          
+
+            
+  
+
+  
+  
+
+            
+            
+              <a onclick="window.location.href='http://sh.st/st/46426c966202d473bb12d01037ebfad1/https://programming-book.com/download/2017/ComputerBooks/581017/Testing and Validation of Computer Simulation Models.pdf'"
+              type="button" class="shorte.st mb-1 btn btn-danger btn-sm">
+                shorte.st/581017
+              </a>
+            
+
+            
+          
+
+            
+  
+
+  
+  
+
+            
+            
+              <a onclick="window.location.href='http://ouo.io/qs/muC2AUYR?s=https://programming-book.com/download/2017/ComputerBooks/581017/Testing and Validation of Computer Simulation Models.pdf'"
+              type="button" class="ouo.io mb-1 btn btn-success btn-sm">
+                ouo.io/581017
+              </a>
+            
+
+            
+          
+        
+      </div>
+    
+  </div>
+</div>
+<hr>
+
+	  
+    
+      
+	    <div class="row item">
+  <div class="mb-3 col-md-2">
+    <img class="item-thumbnail" src="https://www.programming-book.com/doc-images/8618.png">
+  </div>
+
+  <div class="mb-3 col-md-10">
+    <a href="/book018/american-mcgees-alice-primas-book.html">
+      <h3 class="ebook_title text-primary"> American McGees Alice Primas Book </h3>
+    </a>
+
+    <h6 class="">Author: TBD</h6>
+    <h6 class="">Category:
+      <a href="#">
+        
+          PDF
+        
+      </a>
+    </h6>
+
+    
+      <div class="alert alert-info" role="alert">
+        <i class="fa fa-download" aria-hidden="true"></i> Please select file format to download.
+      </div>
+
+      <div class="item-downloads">
+        
+        
+          
+
+            
+  
+
+  
+  
+
+            
+            
+              <a onclick="window.location.href='http://adf.ly/22672009/https://programming-book.com/download/2017/ComputerBooks/031017/American McGees Alice Primas.pdf'"
+              type="button" class="adf.ly mb-1 btn btn-success btn-sm">
+                adf.ly/031017
+              </a>
+            
+
+            
+          
+
+            
+  
+
+  
+  
+
+            
+            
+              <a onclick="window.location.href='http://sh.st/st/46426c966202d473bb12d01037ebfad1/https://programming-book.com/download/2017/ComputerBooks/031017/American McGees Alice Primas.pdf'"
+              type="button" class="shorte.st mb-1 btn btn-danger btn-sm">
+                shorte.st/031017
+              </a>
+            
+
+            
+          
+
+            
+  
+
+  
+  
+
+            
+            
+              <a onclick="window.location.href='http://ouo.io/qs/muC2AUYR?s=https://programming-book.com/download/2017/ComputerBooks/031017/American McGees Alice Primas.pdf'"
+              type="button" class="ouo.io mb-1 btn btn-success btn-sm">
+                ouo.io/031017
+              </a>
+            
+
+            
+          
+        
+      </div>
+    
+  </div>
+</div>
+<hr>
+
+	  
+    
+</div>
+
+		</div>
+
+		<div class="col-md-3">
+			<div class="dl-sidebar">
+				<div class="col-12 bg-info text-light dl-sidebar-header">
+	PAGE/FREEDL101
+</div>
+<div class="dl-sidebar-content">
+	<ul class="nav nav-pills nav-stacked">
+		<li>
+			<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+	    	<a href="https://freedl101.github.io/blog/">Blog</a>
+		</li>
+
+		
+			<li>
+				<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+            	<a href="https://freedl101.github.io/book001">
+            		Book001
+            	</a>
+			</li>
+	    
+			<li>
+				<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+            	<a href="https://freedl101.github.io/book002">
+            		Book002
+            	</a>
+			</li>
+	    
+			<li>
+				<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+            	<a href="https://freedl101.github.io/book003">
+            		Book003
+            	</a>
+			</li>
+	    
+			<li>
+				<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+            	<a href="https://freedl101.github.io/book004">
+            		Book004
+            	</a>
+			</li>
+	    
+			<li>
+				<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+            	<a href="https://freedl101.github.io/book005">
+            		Book005
+            	</a>
+			</li>
+	    
+			<li>
+				<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+            	<a href="https://freedl101.github.io/book006">
+            		Book006
+            	</a>
+			</li>
+	    
+			<li>
+				<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+            	<a href="https://freedl101.github.io/book007">
+            		Book007
+            	</a>
+			</li>
+	    
+			<li>
+				<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+            	<a href="https://freedl101.github.io/book008">
+            		Book008
+            	</a>
+			</li>
+	    
+			<li>
+				<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+            	<a href="https://freedl101.github.io/book009">
+            		Book009
+            	</a>
+			</li>
+	    
+			<li>
+				<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+            	<a href="https://freedl101.github.io/book010">
+            		Book010
+            	</a>
+			</li>
+	    
+			<li>
+				<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+            	<a href="https://freedl101.github.io/book011">
+            		Book011
+            	</a>
+			</li>
+	    
+			<li>
+				<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+            	<a href="https://freedl101.github.io/book012">
+            		Book012
+            	</a>
+			</li>
+	    
+			<li>
+				<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+            	<a href="https://freedl101.github.io/book013">
+            		Book013
+            	</a>
+			</li>
+	    
+			<li>
+				<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+            	<a href="https://freedl101.github.io/book014">
+            		Book014
+            	</a>
+			</li>
+	    
+			<li>
+				<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+            	<a href="https://freedl101.github.io/book015">
+            		Book015
+            	</a>
+			</li>
+	    
+			<li>
+				<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+            	<a href="https://freedl101.github.io/book016">
+            		Book016
+            	</a>
+			</li>
+	    
+			<li>
+				<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+            	<a href="https://freedl101.github.io/book017">
+            		Book017
+            	</a>
+			</li>
+	    
+			<li>
+				<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+            	<a href="https://freedl101.github.io/book018">
+            		Book018
+            	</a>
+			</li>
+	    
+			<li>
+				<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+            	<a href="https://freedl101.github.io/book019">
+            		Book019
+            	</a>
+			</li>
+	    
+			<li>
+				<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
+            	<a href="https://freedl101.github.io/book020">
+            		Book020
+            	</a>
+			</li>
+	    
+	</ul>
+</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+      </main>
+
+      <footer class="footer fixed-bottom dl-footer">
+	<div class="container">
+		<div class="dl-footer-follow">
+			<ul class="social-icons">
+				
+
+				
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+						
+					
+				
+
+				<li>
+					<a href="/book018/atom.xml" target=”_blank”>
+						<i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed
+					</a>
+				</li>
+			</ul>
+		</div>
+
+		<div class="dl-footer-copyright">
+			&copy; 2021 FREEDL101
+		</div>
+	</div>
+</footer>
+
+      <!-- Bootstrap 4 -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<!-- Bootstrap 4 End -->
+    </div>
+  </body>
+
+</html>
